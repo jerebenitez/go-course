@@ -1,0 +1,3 @@
+module boot.dev-go/4_structs/L1/main
+
+go 1.21.4
