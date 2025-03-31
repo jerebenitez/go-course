@@ -1,4 +1,4 @@
-package main
+package C2
 
 func (u User) SendMessage(message string, messageLength int) (string, bool) {
     if u.MessageCharLimit >= messageLength {

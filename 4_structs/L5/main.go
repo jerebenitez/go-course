@@ -1,4 +1,4 @@
-package main
+package L5
 
 type sender struct {
     user

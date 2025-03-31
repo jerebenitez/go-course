@@ -1,5 +1,5 @@
 
-package main
+package L1
 
 type messageToSend struct {
     phoneNumber int

@@ -1,4 +1,4 @@
-package main
+package L3
 
 type Analytics struct {
 	MessagesTotal     int

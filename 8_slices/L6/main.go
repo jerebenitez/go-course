@@ -1,4 +1,4 @@
-package main
+package L6
 
 func getMessageCosts(messages []string) []float64 {
     costs := make([]float64, len(messages))

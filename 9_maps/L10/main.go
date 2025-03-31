@@ -1,4 +1,4 @@
-package main
+package L10
 
 func getNameCounts(names []string) map[rune]map[string]int {
     

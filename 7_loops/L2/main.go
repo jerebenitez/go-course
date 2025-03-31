@@ -1,4 +1,4 @@
-package main
+package L2
 
 func maxMessages(thresh int) int {
     for i := 0; ; i++ {

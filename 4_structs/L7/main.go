@@ -1,4 +1,4 @@
-package main
+package L7
 
 type contact struct {
 	sendingLimit int32

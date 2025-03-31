@@ -1,4 +1,4 @@
-package main
+package L10
 
 func sum(nums ...int) int {
     sum := 0

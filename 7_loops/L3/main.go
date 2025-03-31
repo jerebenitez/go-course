@@ -1,4 +1,4 @@
-package main
+package L3
 
 func getMaxMessagesToSend(costMultiplier float64, maxCostInPennies int) int {
 	actualCostInPennies := 1.0

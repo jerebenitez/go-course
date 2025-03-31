@@ -1,4 +1,4 @@
-package main
+package C2
 
 import "slices"
 

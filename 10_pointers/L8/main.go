@@ -1,4 +1,4 @@
-package main
+package L8
 
 func (e *email) setMessage(newMessage string) {
 	e.message = newMessage

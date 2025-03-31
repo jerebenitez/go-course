@@ -1,4 +1,4 @@
-package main
+package C1
 
 func countConnections(groupSize int) int {
     connections := 0

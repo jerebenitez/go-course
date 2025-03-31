@@ -1,4 +1,4 @@
-package main
+package L12
 
 func indexOfFirstBadWord(msg []string, badWords []string) int {
     for i, word := range msg {

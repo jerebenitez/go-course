@@ -1,4 +1,4 @@
-package main
+package C5
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package main
+package L2
 
 type employee interface {
 	getName() string

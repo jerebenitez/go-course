@@ -1,4 +1,4 @@
-package main
+package C2
 
 type notification interface {
 	importance() int

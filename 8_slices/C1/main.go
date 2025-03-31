@@ -1,4 +1,4 @@
-package main
+package C1
 
 type Message interface {
 	Type() string

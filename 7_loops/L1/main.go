@@ -1,4 +1,4 @@
-package main
+package L1
 
 func bulkSend(numMessages int) float64 {
     cost := 0.0

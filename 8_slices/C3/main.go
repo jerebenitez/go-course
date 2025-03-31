@@ -1,4 +1,4 @@
-package main
+package C3
 
 func getFormattedMessages(messages []string, formatter func(string) string ) []string {
 	formattedMessages := []string{}
