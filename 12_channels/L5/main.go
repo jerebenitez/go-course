@@ -3,13 +3,8 @@ package main
 func countReports(numSentCh chan int) int {
     i := 0
 
-    for {
-        v, ok := <- numSentCh
-        if !ok {
-            break
-        }
-
-        i += v
+    for numReports := range numSentCh {
+        i += numReports
     }
 
     return i
