@@ -1,4 +1,4 @@
-package main
+package L5
 
 func countReports(numSentCh chan int) int {
     i := 0

@@ -1,4 +1,4 @@
-package main
+package L4
 
 func addEmailsToQueue(emails []string) chan string {
     ch := make(chan string, len(emails))
