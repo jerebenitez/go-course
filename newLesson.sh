@@ -1,13 +1,32 @@
 #!/bin/bash
 
-name="${1}"
-# path="$(basename "$(dirname "$PWD")")/$(basename "$PWD")"
+name="$1"
+create_test=true  # Default: create main_test.go
 
-mkdir $name
-cd $name
+# Parse options
+while [[ "$#" -gt 0 ]]; do
+    case "$1" in
+        --no-test)
+            create_test=false
+            shift
+            ;;
+        *)
+            name="$1"  # Assume first argument is the project name
+            shift
+            ;;
+    esac
+done
 
-# No longer needed, since I no longer create multiple modules
-# go mod init "${path}/${name}/main"
+mkdir -p "$name"
+cd "$name" || exit
 
-touch main.go main_test.go
-nvim main_test.go
+touch main.go
+
+# Only create main_test.go if --no-test is not provided
+if [ "$create_test" = true ]; then
+    touch main_test.go
+    nvim main_test.go
+else
+    nvim main.go
+fi
+
